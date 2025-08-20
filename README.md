@@ -1,4 +1,4 @@
-# Seu Carlos Migrations
+# Drizzle Migrations
 
 This project is designed to create and run database migrations using **Node.js** and **Drizzle ORM**.
 
