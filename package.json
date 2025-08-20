@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "migrations": "npx drizzle-kit push",
+    "migrations:create": "npx drizzle-kit generate",
+    "migrations:run": "npx drizzle-kit migrate"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "drizzle-orm": "^0.44.3",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.15.4",
+    "drizzle-kit": "^0.31.4",
+    "tsx": "^4.20.3"
+  }
+}
