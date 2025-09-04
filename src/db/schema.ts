@@ -8,3 +8,11 @@ export const usersTable = pgTable("users", {
   password: varchar({ length: 255 }).notNull(),
   created_at: date().notNull(),
 });
+
+export const schedulingTable = pgTable("schedules", {
+  id: uuid().primaryKey(),
+  schedule_date: date().notNull(),
+  user_id: uuid().notNull(),
+  service: varchar({ length: 255 }).notNull(),
+  created_at: date().notNull(),
+});
